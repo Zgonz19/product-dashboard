@@ -43,10 +43,10 @@ Visit `http://localhost:4200` to view the product list.
 ### Database Schema
 
 - Products: Id (PK), CategoryId (FK), Name, Description, Price, StockQuantity, CreatedDate, IsActive
-	Indexes: CategoryId, Name, Price, StockQuantity, IsActive
-	
+  - Indexes: CategoryId, Name, Price, StockQuantity, IsActive
+
 - Categories: Id (PK), Name, Description, IsActive
-	Indexes: Name, IsActive
+  - Indexes: Name, IsActive
 	
 One-to-many (Category → Products)
 

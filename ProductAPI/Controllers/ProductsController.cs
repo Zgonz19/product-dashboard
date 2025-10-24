@@ -1,6 +1,4 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
-using System.Numerics;
+﻿using Microsoft.AspNetCore.Mvc;
 using ProductAPI.DTOs;
 using ProductAPI.Middleware;
 using ProductAPI.Services;
@@ -12,16 +10,11 @@ namespace ProductAPI.Controllers
     [ApiKey]
     public class ProductsController : ControllerBase
     {
-
-
         private readonly IProductService _productService;
-
         public ProductsController(IProductService productService)
         {
             _productService = productService;
         }
-
-
 
         [HttpGet]
         public async Task<IActionResult> AllActiveProducts()
@@ -29,7 +22,6 @@ namespace ProductAPI.Controllers
             var products = await _productService.GetActiveProducts();
             return Ok(products);
         }
-
 
         [HttpGet("{id}")]
         public async Task<IActionResult> GetProduct(int id)
@@ -39,7 +31,6 @@ namespace ProductAPI.Controllers
                 return NotFound();
 
             return Ok(product);
-
         }
 
         [HttpPost]
@@ -54,7 +45,6 @@ namespace ProductAPI.Controllers
             {
                 return BadRequest(new { error = ex.Message });
             }
-
         }
 
         [HttpPut("{id}")]
@@ -82,7 +72,6 @@ namespace ProductAPI.Controllers
                 return NotFound();
 
             return NoContent();
-
         }
 
         [HttpGet("search")]

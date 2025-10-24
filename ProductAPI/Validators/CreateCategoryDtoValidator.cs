@@ -15,5 +15,4 @@ namespace ProductAPI.Validators
                 .MaximumLength(500).WithMessage("Description must be 500 characters or fewer");
         }
     }
-
 }
