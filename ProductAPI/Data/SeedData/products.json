@@ -1,0 +1,202 @@
+[
+  {
+    "Id": 1,
+    "Name": "Wireless Mouse",
+    "Description": "Ergonomic 2.4GHz mouse",
+    "Price": 25.99,
+    "CategoryId": 1,
+    "StockQuantity": 150,
+    "CreatedDate": "2025-10-01T10:00:00Z",
+    "IsActive": true
+  },
+  {
+    "Id": 2,
+    "Name": "Noise Cancelling Headphones",
+    "Description": "Over-ear Bluetooth headphones",
+    "Price": 89.99,
+    "CategoryId": 1,
+    "StockQuantity": 60,
+    "CreatedDate": "2025-09-15T14:30:00Z",
+    "IsActive": true
+  },
+  {
+    "Id": 3,
+    "Name": "eBook Reader",
+    "Description": "6\" display, Wi-Fi, long battery life",
+    "Price": 129.00,
+    "CategoryId": 1,
+    "StockQuantity": 30,
+    "CreatedDate": "2025-10-10T16:00:00Z",
+    "IsActive": true
+  },
+  {
+    "Id": 4,
+    "Name": "Smartwatch",
+    "Description": "Fitness tracking with heart rate monitor",
+    "Price": 199.99,
+    "CategoryId": 1,
+    "StockQuantity": 45,
+    "CreatedDate": "2025-09-20T11:00:00Z",
+    "IsActive": true
+  },
+  {
+    "Id": 5,
+    "Name": "Sci-Fi Novel",
+    "Description": "Hardcover edition of a space thriller",
+    "Price": 14.50,
+    "CategoryId": 2,
+    "StockQuantity": 200,
+    "CreatedDate": "2025-08-20T09:00:00Z",
+    "IsActive": true
+  },
+  {
+    "Id": 6,
+    "Name": "Cookbook",
+    "Description": "Recipes for quick meals",
+    "Price": 22.00,
+    "CategoryId": 2,
+    "StockQuantity": 100,
+    "CreatedDate": "2025-09-01T12:00:00Z",
+    "IsActive": true
+  },
+  {
+    "Id": 7,
+    "Name": "Mystery Novel",
+    "Description": "Suspenseful detective story",
+    "Price": 18.00,
+    "CategoryId": 2,
+    "StockQuantity": 120,
+    "CreatedDate": "2025-07-25T10:00:00Z",
+    "IsActive": true
+  },
+  {
+    "Id": 8,
+    "Name": "Children's Storybook",
+    "Description": "Illustrated bedtime stories",
+    "Price": 10.99,
+    "CategoryId": 2,
+    "StockQuantity": 80,
+    "CreatedDate": "2025-06-15T08:00:00Z",
+    "IsActive": true
+  },
+  {
+    "Id": 9,
+    "Name": "Cotton T-Shirt",
+    "Description": "100% cotton, unisex, various sizes",
+    "Price": 12.00,
+    "CategoryId": 3,
+    "StockQuantity": 500,
+    "CreatedDate": "2025-07-10T11:45:00Z",
+    "IsActive": true
+  },
+  {
+    "Id": 10,
+    "Name": "Jeans",
+    "Description": "Slim fit denim jeans",
+    "Price": 39.99,
+    "CategoryId": 3,
+    "StockQuantity": 250,
+    "CreatedDate": "2025-08-01T10:00:00Z",
+    "IsActive": true
+  },
+  {
+    "Id": 11,
+    "Name": "Hoodie",
+    "Description": "Fleece-lined pullover hoodie",
+    "Price": 29.99,
+    "CategoryId": 3,
+    "StockQuantity": 180,
+    "CreatedDate": "2025-09-05T13:00:00Z",
+    "IsActive": true
+  },
+  {
+    "Id": 12,
+    "Name": "Dress Shirt",
+    "Description": "Formal shirt for office wear",
+    "Price": 24.99,
+    "CategoryId": 3,
+    "StockQuantity": 90,
+    "CreatedDate": "2025-10-02T09:00:00Z",
+    "IsActive": true
+  },
+  {
+    "Id": 13,
+    "Name": "Blender",
+    "Description": "5-speed kitchen blender with glass jar",
+    "Price": 49.99,
+    "CategoryId": 4,
+    "StockQuantity": 80,
+    "CreatedDate": "2025-06-05T08:20:00Z",
+    "IsActive": true
+  },
+  {
+    "Id": 14,
+    "Name": "Coffee Maker",
+    "Description": "Programmable drip coffee machine",
+    "Price": 79.99,
+    "CategoryId": 4,
+    "StockQuantity": 40,
+    "CreatedDate": "2025-07-15T09:30:00Z",
+    "IsActive": true
+  },
+  {
+    "Id": 15,
+    "Name": "Table Lamp",
+    "Description": "LED lamp with adjustable brightness",
+    "Price": 34.99,
+    "CategoryId": 4,
+    "StockQuantity": 70,
+    "CreatedDate": "2025-08-10T10:30:00Z",
+    "IsActive": true
+  },
+  {
+    "Id": 16,
+    "Name": "Cutlery Set",
+    "Description": "Stainless steel 20-piece set",
+    "Price": 27.50,
+    "CategoryId": 4,
+    "StockQuantity": 110,
+    "CreatedDate": "2025-09-18T14:00:00Z",
+    "IsActive": true
+  },
+  {
+    "Id": 17,
+    "Name": "Action Figure",
+    "Description": "Collectible superhero figure",
+    "Price": 19.99,
+    "CategoryId": 5,
+    "StockQuantity": 0,
+    "CreatedDate": "2025-05-01T13:00:00Z",
+    "IsActive": false
+  },
+  {
+    "Id": 18,
+    "Name": "Puzzle Game",
+    "Description": "500-piece jigsaw puzzle",
+    "Price": 15.00,
+    "CategoryId": 5,
+    "StockQuantity": 60,
+    "CreatedDate": "2025-06-20T11:00:00Z",
+    "IsActive": true
+  },
+  {
+    "Id": 19,
+    "Name": "Board Game",
+    "Description": "Strategy game for 2–4 players",
+    "Price": 29.99,
+    "CategoryId": 5,
+    "StockQuantity": 75,
+    "CreatedDate": "2025-07-30T12:00:00Z",
+    "IsActive": true
+  },
+  {
+    "Id": 20,
+    "Name": "Stuffed Animal",
+    "Description": "Soft plush teddy bear",
+    "Price": 17.99,
+    "CategoryId": 5,
+    "StockQuantity": 100,
+    "CreatedDate": "2025-08-25T15:00:00Z",
+    "IsActive": true
+  }
+]

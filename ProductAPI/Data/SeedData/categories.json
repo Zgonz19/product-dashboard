@@ -1,0 +1,32 @@
+[
+  {
+    "Id": 1,
+    "Name": "Electronics",
+    "Description": "Devices and gadgets",
+    "IsActive": true
+  },
+  {
+    "Id": 2,
+    "Name": "Books",
+    "Description": "Printed and digital books",
+    "IsActive": true
+  },
+  {
+    "Id": 3,
+    "Name": "Clothing",
+    "Description": "Apparel for men and women",
+    "IsActive": true
+  },
+  {
+    "Id": 4,
+    "Name": "Home & Kitchen",
+    "Description": "Furniture, decor, and utensils",
+    "IsActive": true
+  },
+  {
+    "Id": 5,
+    "Name": "Toys",
+    "Description": "Kids' toys and games",
+    "IsActive": false
+  }
+]
