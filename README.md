@@ -84,9 +84,9 @@ One-to-many (Category → Products)
 
 - Avoiding unnecessary abstraction
 - Consider Repository Pattern when:
-	Duplication of the same EF Core queries throughout the Service layer
-	Business Logic should be decoupled from data access layer
-	Multiple data access layers or plans to migrate database from one service to another (eg., MySql -> PostgreSQL)
+  - Duplication of the same EF Core queries throughout the Service layer
+  - Business Logic should be decoupled from data access layer
+  - Multiple data access layers or plans to migrate database from one service to another (eg., MySql -> PostgreSQL)
 
 ### Index Strategy
 
